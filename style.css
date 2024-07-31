@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  color: white;
+  margin: 0 350px;
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px 0;
+}
+nav li {
+  list-style: none;
+  display: inline;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+}
+nav a:hover {
+  background-color: rgb(23, 22, 22);
+  border-bottom: 3px solid rgb(0, 110, 255);
+  padding: 10px 10px 5px 10px;
+  border-radius: 5px;
+}
+.sec-one {
+  display: flex;
+}
+.sec :hover {
+  color: white;
+}
+.hi {
+  font-size: 35px;
+}
+.vic {
+  color: green;
+  font-weight: 900;
+  font-size: 40px;
+}
+.exp {
+  background-color: green;
+}
+.what {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  text-decoration: none;
+}
+.pro {
+  color: yellow;
+}
+.read {
+  color: white;
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.about {
+  color: purple;
+}
+.res {
+  color: palevioletred;
+}
+
+.spo {
+  color: orangered;
+}
+.sup {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  text-decoration: none;
+}
+.craft:hover {
+  background-color: rgb(22, 20, 20);
+  width: 900px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.wel {
+  margin: 40px 0;
+}
+h2 {
+  font-weight: 900;
+  font-size: 40px;
+}
+.craft {
+  margin: 10px 0;
+}
+.http {
+  font-size: 25px;
+}
+.craft a {
+  text-decoration: none;
+  color: green;
+  border: 1px solid green;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.craft a:hover {
+  background-color: green;
+  color: black;
+}
+.craft p {
+  margin: 20px 0;
+}
+.post {
+  color: green;
+  text-decoration: underline green;
+  margin-bottom: 10px;
+  float: right;
+}
+
+.post:hover {
+  color: white;
+  background-color: green;
+}
+
+.email {
+  background-color: black;
+  padding: 10px;
+  width: 250px;
+  border-radius: 5px;
+  color: white;
+}
+.sign {
+  border: 1px solid green;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.sign:hover {
+  background-color: green;
+}
+footer {
+  margin: 40px 0;
+}
+.footer {
+  margin: 30px 0;
+}
+.foo {
+  display: flex;
+  justify-content: center;
+}
+.sec-left a {
+  margin: 30px;
+}
